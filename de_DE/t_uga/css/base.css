@@ -63,6 +63,8 @@ div#ranking-Tribe {width: 700px; margin: 0 auto;}
 #ul-menu-left {line-height: 0; text-align: left;}
 #ul-menu-right {line-height: 0; text-align: right;}
 
+.menu_active_cave_size{ font-size: 15px;};
+
 /******* HÖHLENÜBERSICHT ********************************************************/
 .secureCavebold, .secureCave-bold:visited  {font-weight: bold;color: #000;}
 .secureCave-bold1, .secureCave-1:visited, .secureCave-bold1:visited, .secureCave-1 {font-weight: bold;color: #b8860b;}
