@@ -54,10 +54,11 @@ div#ranking-Tribe {width: 700px; margin: 0 auto;}
 .td-time {width: 80px;}
 .td-unit-input  {width: 120px;}
 .time-bar {width: 65px; height: 15px; background-Color: #C3C3C3;}
-.time-bar-inner {width: 0px; height: 15px; background-Color: #346D1E; color: #FFFFFF; text-align: center; white-Space: nowrap;}
+.time-bar-inner {width: 0px; height: 15px; background-Color: #346D1E; color: #FFFFFF; white-Space: nowrap;}
 .time-bar-td {width: 65px;}
 .text-left {text-align: left;}
 .text-right {text-align: right;}
+.text-center {text-align: center;}
 
 #ul-menu-left {line-height: 0; text-align: left;}
 #ul-menu-right {line-height: 0; text-align: right;}
