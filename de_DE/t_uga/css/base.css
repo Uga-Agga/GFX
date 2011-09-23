@@ -36,7 +36,7 @@ div#ranking-Tribe {width: 700px; margin: 0 auto;}
 .bg1-nohover {background-color: #eee;}
 .bold {font-weight: bold;}
 
-.box {background-repeat: repeat; -webkit-border-radius: 10px; -khtml-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; padding: 0px 5px 8px; margin-bottom: 10px;}
+.box {background-repeat: repeat; -webkit-border-radius: 10px; -khtml-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; padding: 0px 5px 8px; margin-bottom: 10px !important;}
 .box-header {color: #FFFFFF; margin: 3px; padding-top: 2px; text-align: center; font-weight:bold;}
 .box-content {margin: 0 auto; text-align: left;}
 .nohover tr:hover {background:transparent;} 
