@@ -154,8 +154,11 @@ a.text-msg-previous:hover {color:#FFFFFF; text-decoration:underline;}
 ul.colums-two {list-style-type: none; padding: 0; margin: 0;}
 li.clr {clear: left; width: 1px; height: 1px;  margin: 0;}
 
-li.tripe_detail_left {float: left; width: 100px; font-weight: bold; margin: 0 5px 5px 0;}
-li.tripe_detail_right {float: left; width: 175px; padding: 0; margin: 0 0 5px 0;}
+li.tribe_left {float: left; width: 100px; font-weight: bold; margin: 0 5px 5px 0;}
+li.tribe_right {float: left; width: 175px; padding: 0; margin: 0 0 5px 0;}
+
+li.tribe_detail_left {float: left; width: 100px; font-weight: bold; margin: 0 5px 5px 0;}
+li.tribe_detail_right {float: left; width: 175px; padding: 0; margin: 0 0 5px 0;}
 
 li.player_detail_left {float: left; width: 160px; font-weight: bold; margin: 0 5px 5px 0;}
 li.player_detail_right {float: left; width: 115px; padding: 0; margin: 0 0 5px 0;}
