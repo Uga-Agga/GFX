@@ -95,7 +95,7 @@ div.jqDockLabel {padding:0; white-space:nowrap; font-weight: bold; color:#000000
 .tooltip {padding:0px; margin-bottom:0px; position: absolute; display: none ; width:150px; text-align:center; background:#fbe3e4; color:#8a1f11; border-color:#fbc2c4;}
 .small {width: 660px;margin: 0 auto;}
 .small-inner {width:635px;}
-.inner {padding:0px !important; margin-bottom:0px !important;}
+.inner {padding:1px !important; margin-bottom:0px !important;}
 
 .row_alternate {background:#e6efc2  !important; color:#264409  !important; border-color:#c6d880  !important;}
 .bottom_space {margin-bottom: 10px;}
