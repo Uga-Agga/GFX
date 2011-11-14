@@ -59,6 +59,7 @@ div#ranking-Tribe {width: 700px; margin: 0 auto;}
 .text-left {text-align: left;}
 .text-right {text-align: right;}
 .text-center {text-align: center;}
+.text-small {font-size: x-small;}
 
 #ul-menu-left {line-height: 0; text-align: left;}
 #ul-menu-right {line-height: 0; text-align: right;}
