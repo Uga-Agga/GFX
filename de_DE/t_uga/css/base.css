@@ -147,7 +147,7 @@ a.text-msg-previous:hover {color:#FFFFFF; text-decoration:underline;}
 .msg_20 {background-color: #fc9;} /* Niederlage */
 .msg_99 {background-color: #ccc;} /* Uga-Agga Team */
 .msg_1001 {background-color: #fff;} /* ANKÜNDIGUNG */
-.msg_read0 a {padding-left: 20px; background-repeat: no-repeat; font-weight: bold;}
+.msg_read0 a {background-repeat: no-repeat; font-weight: bold;}
 
 /******* KARTE **********************************************************/
 .unsecure { color: #FF00FF !important; }
