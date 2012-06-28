@@ -33,6 +33,8 @@ li { margin: 0; }
 
 dd { margin: 0; }
 
+h3 { margin: 0 0 10px 0; font-size: 16px; font-weight: bold; }
+
 .small { width: 660px; margin: 20px auto; }
 .box { padding: 10px 0; }
 .bold { font-weight: bold; }
@@ -48,15 +50,16 @@ dd { margin: 0; }
 tbody tr.nohover:hover td { background: transparent !important; }
 
 .ym-wrapper { width: 100%; min-width: 980px; position: absolute; top: 0px; }
-.ym-col-head1 { min-width: 454px; width: 454px; height: 192px; text-align: left; background-repeat: no-repeat; } /* left column */
-.ym-col-head2 { min-width: 446px; width: 446px; height: 192px; text-align: right; background-repeat: no-repeat; } /* right column */
+.ym-col-head1 { margin-top: -54px; top: 0px; min-width: 454px; width: 454px; height: 192px; text-align: left; background-repeat: no-repeat; } /* left column */
+.ym-col-head2 { margin-top: -54px; top: 0px; min-width: 446px; width: 446px; height: 192px; text-align: right; background-repeat: no-repeat; } /* right column */
 
-.ua-header-menu { z-index: 1; position: relative; width: 100%; min-width: 980px;  text-align: center; } /* center column */
-  .ua-head-menu { width: 500px; height: 54px; margin: 0 auto; background-repeat: no-repeat; }
+.ym-col-head-middle { top: 0px; position: relative; margin-right: auto; margin-left: auto; text-align: center; width: 500px; height: 54px; z-index: 1; } /* center column */
+  .ua-head-menu { width: 500px; height: 54px; margin: 0 auto; background-repeat: no-repeat; margin: 0 auto; }
     #ua-head-menu-item { padding: 10px; }
     #ua-head-menu-item div.jqDockWrap { margin: 0 auto; }
     #ua-head-menu-item div.jqDock { cursor:pointer; }
       div.jqDockLabel { bottom: -12px !important; padding: 0; white-space: nowrap; font-weight: bold; color: #000000; cursor: pointer; }
+.ua-header-logout { z-index: 2; top: 0px; right: 0px; position: absolute; text-align: right; }
 
 .ym-col-con1 { width: 133px; text-align: left; } /* left column */
 .ym-col-con2 { width: 133px; text-align: right; } /* right column */
@@ -81,6 +84,11 @@ tbody tr.nohover:hover td { background: transparent !important; }
 .ua-td-timer { width: 75px; text-align: right; padding-right: 4px; }
 .ua-td-open { width: 16px; text-align: center; }
 .ua-td-padding { padding-left: 4px; padding-right: 4px; }
+
+#footerSlideContainer { position: fixed; bottom:0; width: 100%; z-index: 1; }
+#footerSlideButton { position: absolute; top: -55px; right: 20px; width:50px; height:50px; border: none; cursor: pointer; }
+#footerSlideContent { width: 100%; height: 0px; background: #251b15; color: #CCCCCC; border: none; font-family: DejaVuSansBook, Sans-Serif; }
+#footerSlideText { }
 
 /* farben fuer den terminkalender */
 .ua-digest-building { background-color: #CCFFCC; }
