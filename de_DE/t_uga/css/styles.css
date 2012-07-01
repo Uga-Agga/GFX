@@ -128,8 +128,10 @@ a.text-msg-next:link, a.text-msg-next:visited, a.text-msg-next:active, a.text-ms
 .dd-msg {margin-left: 14%;}
 
 /* Höhlenliste */
-.secureCavebold, .secureCave-bold:visited { font-weight: bold;color: #000; }
-.secureCave-bold1, .secureCave-1:visited, .secureCave-bold1:visited, .secureCave-1 { font-weight: bold; color: #b8860b; }
+.menu_active_cave_size{ font-size: 15px;}
+
+.secureCavebold, .secureCave-bold:visited, .secureCave-bold1:visited { font-weight: bold; color: #000; }
+.secureCave-bold1, .secureCave-1:visited, .secureCave-1 { font-weight: bold; color: #b8860b; }
 .unsecureCave-bold, .unsecureCave-bold:visited { font-weight: bold; color: #FF00FF; }
 .secureCave- { color: #080; }
 .unsecureCave-, .unsecureCave-:visited { color: #FF00FF; }
@@ -189,5 +191,6 @@ li.tribe_detail_right {float: left; width: 180px; padding: 0; margin: 0 0 5px 0;
 
 /* Karte */
 .terrain {text-align: center; vertical-align: top; min-width: 60px; background-size: 100% 100% !important; -moz-background-size: 100% 100%; -o-background-size: 100% 100%; -webkit-background-size: 100% 100%; padding: 0px;}
+.unsecure { color: #FF00FF !important; }
 
 .detail-row:hover td { background: transparent; }
